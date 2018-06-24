@@ -9,9 +9,9 @@ def display_board(board)
 end
 
 def row1(board, num=0)
-  return  " #{board[0 + num]}  | #{board[1 + num]}  | #{board[2 + num]}  "
+  return  " #{board[0 + num]} | #{board[1 + num]} | #{board[2 + num]} ";
 end
 
 def row2()
-  return "-----------"
+  return "-----------";
 end
